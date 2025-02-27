@@ -191,21 +191,21 @@ footer {
   text-align: center;
 }
 
-/* ///// about us page ///// */
-
+/* ///// main content container style ///// */
 .current-page-header {
   padding: 1vw 10vw;
-  color: white;
+  color: #444444;
   font-size: 2vw;
   font-style: italic;
 }
 
-.about-us-container {
+.main-container {
   display: flex;
   flex-direction: column;
-  background-color: #444;
+  background-color: rgba(236, 183, 34, 0.2);
 }
 
+/* ///// about us page ///// */
 .about-academy-section {
   padding: 0 5vw 3vw;
   display: flex;
@@ -222,20 +222,20 @@ footer {
 .about-academy-section p {
   width: 30vw;
   font-size: 1.2vw;
-  line-height: 4vh;
-  color: white;
+  line-height: 1.8;
+  color: #444444;
 }
 
 .about-founder-section {
   padding: 3vw 20vw;
-  line-height: 4vh;
+  line-height: 1.8;
   font-size: 1.2vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: #444444;
 }
 
 .about-founder-section img {
@@ -249,4 +249,29 @@ hr {
   border: 0.1vw solid #ecb722;
   width: 50vw;
   text-align: center;
+}
+
+/* ///// instructors page ///// */
+
+.instructor-box {
+  padding: 3vw;
+  display: flex;
+  align-items: center;
+  background-color: #1b447f;
+  border-radius: 15vw;
+  margin: 0 15vw 5vw;
+  color: white;
+}
+
+.instructor-box img {
+  width: 15vw;
+  background-color: #ecb722;
+  border-radius: 100%;
+  padding: 1vw;
+}
+
+.instructor-detail {
+  padding: 0 5vw;
+  line-height: 1.5;
+  font-size: 1.1vw;
 }
