@@ -18,6 +18,7 @@ body {
   align-items: center;
   font-weight: bold;
   color: white;
+  font-size: 1.2vw;
 }
 
 .banner img,
@@ -126,8 +127,8 @@ footer {
 }
 
 .contact-detail-container {
-  background-color: #1b447f;
-  color: white;
+  background-color: #ecb722;
+  color: #1b447f;
   margin: 2vw 3vw;
   height: 20vh;
   display: flex;
@@ -146,9 +147,15 @@ footer {
   align-items: center;
 }
 
+.contact-item h3 {
+  text-align: center;
+  font-size: 1.3vw;
+}
+
 .contact-item p {
   text-align: center;
   line-height: 1.5;
+  font-size: 1.1vw;
 }
 
 .contact-item ul {
@@ -164,12 +171,17 @@ footer {
 
 .contact-item ul li a {
   font-size: 2.5vw;
-  color: white;
+  color: #1b447f;
   transition: all 300ms ease-in-out;
 }
 
 .contact-item ul li a:hover {
-  color: #ecb722;
+  color: white;
+}
+
+.vl {
+  border: 0.1vw solid #1b447f;
+  height: 20vh;
 }
 
 .nondiscriminatory-policy {
